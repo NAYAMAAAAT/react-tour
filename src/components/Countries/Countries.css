@@ -1,0 +1,13 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.visited{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: rgb(0, 0, 0);
+}
+.flag-container img{
+    width: 100px;
+}
